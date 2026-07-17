@@ -1,0 +1,86 @@
+aid: bain-capital-ventures
+name: Bain Capital Ventures
+description: >-
+  Bain Capital Ventures (BCV) is the venture capital arm of Bain Capital, a
+  multi-stage, domain-focused venture business founded in 2001 with roughly
+  $9.4B in assets under management (as of June 30, 2025). BCV incubates ideas,
+  leads seed rounds, and scales growth-stage companies, investing from about
+  $1M of seed capital through $100M of growth equity and partnering with more
+  than 400 active portfolio companies. The firm concentrates on AI Apps, AI
+  Infrastructure, Commerce, Fintech, Healthcare, Physical AI, and Security,
+  backing companies such as MaintainX (acquired by Autodesk), Moveworks
+  (acquired by ServiceNow), Redis, Crusoe, Cognition, Decagon, Legora, and
+  Sunday Robotics. BCV operates from New York City, Palo Alto, and San
+  Francisco, and pairs its investments with a "partnerships over playbooks"
+  platform (The Hive) supporting talent, go-to-market, and customer development.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://baincapitalventures.com/apple-touch-icon.png
+tags:
+  - Venture Capital
+  - Seed
+  - Early Stage
+  - Growth Equity
+  - AI
+  - AI Infrastructure
+  - Fintech
+  - Commerce
+  - Healthcare
+  - Security
+  - Physical AI
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://baincapitalventures.com/
+  - type: Portfolio
+    url: https://baincapitalventures.com/portfolio
+  - type: Portfolio
+    url: portfolio/bain-capital-ventures-portfolio.yml
+  - type: Team
+    url: https://baincapitalventures.com/team/?team=investing-team
+  - type: Team
+    url: team/bain-capital-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://baincapitalventures.com/about
+  - type: Blog
+    url: https://baincapitalventures.com/insights
+  - type: Newsletter
+    url: https://baincapitalventures.com/newsletter
+  - type: Jobs
+    url: https://jobs.baincapitalventures.com/jobs
+  - type: Contact
+    url: https://baincapitalventures.com/contact
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/bain-capital-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bain-capital-ventures/
+  - type: Twitter
+    url: https://x.com/BainCapVC
+  - type: YouTube
+    url: https://www.youtube.com/@BainCapitalVentures
+  - type: Features
+    data:
+      - 'Stage: Seed, Early, Growth'
+      - 'Typical check: $1M seed through $100M growth equity'
+      - 'Sectors: AI Apps, AI Infrastructure, Commerce, Fintech, Healthcare, Physical AI, Security'
+      - 'Geography: North America (US-focused)'
+      - 'AUM: $9.4B (as of June 30, 2025)'
+      - 'Active portfolio: 400+ companies'
+      - 'Founded: 2001'
+      - 'HQ: New York City; offices in Palo Alto and San Francisco'
+    sources:
+      - https://baincapitalventures.com/
+      - https://en.wikipedia.org/wiki/Bain_Capital_Ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Bain Capital Ventures
+    url: https://baincapitalventures.com/

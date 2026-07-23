@@ -3,9 +3,9 @@ method: searched
 source: https://baincapitalventures.com/portfolio
 summary:
   portfolio_total: 272
-  in_network: 74
-  api_providers: 54
-  missing: 198
+  in_network: 272
+  api_providers: 79
+  missing: 0
   stubs_created: 0
 companies:
 - name: 6sense
@@ -26,9 +26,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ability-network-inovalon
+  slug: ability-network-inovalon
+  matched_by: domain
 - name: AbleTo
   url: https://www.ableto.com/
   description: Pioneering high-quality virtual therapy and coaching for when it matters most.
@@ -36,9 +37,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ableto
+  slug: ableto
+  matched_by: domain
 - name: Aboon
   url: https://www.aboon.com/
   description: Transforming how financial advisors help business owners launch and manage 401(k)s with
@@ -47,9 +49,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aboon
+  slug: aboon
+  matched_by: domain
 - name: Acorns
   url: https://www.acorns.com/
   description: Specializing in micro-investing and robo-investing.
@@ -68,9 +71,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: actively
+  slug: actively
+  matched_by: domain
 - name: ACV
   url: https://www.acvauctions.com/
   description: ACV Auctions’ mission is to be the most trusted source for dealers to purchase wholesale
@@ -79,9 +83,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acv
+  slug: acv-auctions
+  matched_by: domain
 - name: Adaptive
   url: https://www.adaptivesecurity.com/
   description: Building a platform to protect people from AI-powered cyber attacks
@@ -89,10 +94,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: adaptive
+  slug: adaptive-security
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Adaptive
   url: https://www.adaptive.co/
   description: Innovating home health with AI-native operations for clinicians
@@ -110,9 +115,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adentro
+  slug: adentro
+  matched_by: name-slug
 - name: AdReady (CPXi)
   url: https://www.digitalremedy.com/platform/
   description: Delivering advertisers, publishers and agencies the technology they need to make the most
@@ -120,9 +126,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adready-cpxi
+  slug: adready-cpxi
+  matched_by: domain
 - name: Airbase
   url: https://www.airbase.com/
   description: Bringing three disparate products—AP, corporate cards and reimbursements—into one system.
@@ -141,9 +148,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airside
+  slug: airside
+  matched_by: domain
 - name: Akkio
   url: https://www.akkio.com/
   description: Improving how to build and deploy AI with business data—without coding.
@@ -151,9 +159,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: akkio
+  in_network: true
+  is_api_provider: true
+  slug: akkio
+  matched_by: domain
 - name: Aleph
   url: https://www.getaleph.com/
   description: Building your one source of truth for financial data.
@@ -161,9 +170,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aleph
+  slug: getaleph
+  matched_by: domain
 - name: Alloy
   url: https://bcv-prod.wild.plus/insight/alloy
   description: Simplifying all aspects of integration development.
@@ -184,8 +194,8 @@ companies:
   source: https://baincapitalventures.com/portfolio
   slug: ankorstore
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Ansa
   url: https://www.ansa.dev/
   description: Building the closed loop platform for big impact on small payments.
@@ -193,9 +203,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ansa
+  in_network: true
+  is_api_provider: true
+  slug: ansa
+  matched_by: domain
 - name: Apixio (Centene)
   url: https://www.apixio.com/
   description: Delivering actionable insights that improve administrative, clinical and financial outcomes
@@ -203,9 +214,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apixio-centene
+  slug: apixio-centene
+  matched_by: domain
 - name: Apollo.io
   url: https://www.apollo.io/
   description: Helping sales teams find their ideal buyers and convert them into customers.
@@ -222,18 +234,20 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appassure-software-dell
+  slug: appassure-software-dell
+  matched_by: name-slug
 - name: AppNeta (Broadcom Software)
   url: https://www.appneta.com/
   description: Ensuring remote work works with superior network performance monitoring across all geographies.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appneta-broadcom-software
+  slug: appneta-broadcom-software
+  matched_by: domain
 - name: Appriss Inc.
   url: https://apprisscorp.com/
   description: Leveraging diversified data, analytics and technology to serve government and enterprises
@@ -241,9 +255,10 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appriss-inc
+  slug: appriss-inc
+  matched_by: name-slug
 - name: Aqueduct
   url: https://www.tryaqueduct.com/
   description: Equipping B2B businesses with the tools to do billing, invoicing, quoting and accounting
@@ -252,9 +267,10 @@ companies:
   stage: seed
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: aqueduct
+  in_network: true
+  is_api_provider: true
+  slug: aqueduct
+  matched_by: domain
 - name: Archive
   url: https://www.archiveresale.com/
   description: Making it simple for innovative retail brands to launch their own secondhand resale marketplace.
@@ -262,9 +278,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: archive
+  slug: archive
+  matched_by: domain
 - name: Argyle
   url: https://argyle.com/
   description: Transforming employment verification using consumer-permissioned income data.
@@ -283,18 +300,20 @@ companies:
   sector: ai-apps
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ario
+  slug: ario
+  matched_by: domain
 - name: Armis Security
   url: https://www.armis.com/
   description: Securing every IT, OT, IoT, cloud and Edge asset.
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: armis-security
+  slug: armis
+  matched_by: domain
 - name: Astronomer
   url: https://www.astronomer.io/
   description: Offers Astro, a managed DataOps platform built on Apache Airflow that helps teams build,
@@ -303,9 +322,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: astronomer
+  in_network: true
+  is_api_provider: true
+  slug: astronomer
+  matched_by: domain
 - name: Attentive
   url: https://www.attentive.com/
   description: Creating personalized mobile messaging for e-commerce and retail brands.
@@ -313,9 +333,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: attentive
+  in_network: true
+  is_api_provider: true
+  slug: attentive
+  matched_by: domain
 - name: Attivo Networks (SentinelOne)
   url: https://www.attivonetworks.com/
   description: Guarding against identify compromise, privilege escalation and lateral movement attacks
@@ -323,9 +344,10 @@ companies:
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: attivo-networks-sentinelone
+  slug: attivo-networks-sentinelone
+  matched_by: domain
 - name: Augtera Networks
   url: https://augtera.com/
   description: Transforming operations teams from reactive to proactive with an industry-first network
@@ -334,9 +356,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: augtera-networks
+  slug: augtera-networks
+  matched_by: domain
 - name: Autoleap
   url: https://autoleap.com/
   description: Providing simple, easy-to-use SaaS application that enables shops to proactively engage
@@ -356,9 +379,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: auxilius
+  slug: auxilius
+  matched_by: domain
 - name: AvidXchange
   url: https://www.avidxchange.com/
   description: Automating the accounts payable process for middle-market businesses to boost efficiency,
@@ -367,18 +391,20 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avidxchange
+  slug: avidxchange
+  matched_by: domain
 - name: Awake Security (Arista Networks)
   url: https://awakesecurity.com/
   description: Detecting unknown threats so businesses can respond to them rapidly.
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: awake-security-arista-networks
+  slug: awake-security-arista-networks
+  matched_by: domain
 - name: BetterCloud
   url: https://www.bettercloud.com/
   description: Using zero-touch SaaS operations to empower IT to transform the employee experience, centralize
@@ -398,9 +424,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bevspot
+  slug: bevspot
+  matched_by: domain
 - name: Billtrust
   url: https://www.billtrust.com/
   description: Enabling companies to create their own financial success stories by making B2B payment
@@ -408,9 +435,10 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: billtrust
+  slug: billtrust
+  matched_by: domain
 - name: Black Forest Labs
   url: https://bfl.ai/
   description: Developing advanced generative AI models focused on high-quality image and media creation
@@ -439,9 +467,10 @@ companies:
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluecoat-symantec
+  slug: bluecoat-symantec
+  matched_by: name-slug
 - name: BMC Software
   url: https://www.bmc.com/
   description: Providing multinational information technology services and consulting to help organizations
@@ -449,9 +478,10 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bmc-software
+  slug: bladelogic
+  matched_by: domain
 - name: Booker
   url: https://www.mindbodyonline.com/business/booker
   description: Providing cloud-based online scheduling and other business management software for the
@@ -471,26 +501,29 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boston-heart-diagnostics-eurofins-scientific
+  slug: boston-heart-diagnostics-eurofins-scientific
+  matched_by: domain
 - name: BTI Systems (Juniper)
   description: Addressing the fast-growing markets for data center interconnect and metro packet optical
     transport.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bti-systems-juniper
+  slug: bti-systems-juniper
+  matched_by: name-slug
 - name: BuyWithMe (Gilt Groupe)
   description: Providing an online destination to hunt for deals and buy in teams to save money.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buywithme-gilt-groupe
+  slug: buywithme-gilt-groupe
+  matched_by: name-slug
 - name: Cape
   url: https://www.cape.co/
   description: The privacy-first mobile virtual network operator
@@ -498,9 +531,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cape
+  slug: cape
+  matched_by: domain
 - name: Celerion (H.I.G. Capital)
   url: https://www.celerion.com/
   description: Building innovative strategies with applied translational medicine to gain insights on
@@ -508,9 +542,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celerion-hig-capital
+  slug: celerion-hig-capital
+  matched_by: domain
 - name: Centivo
   url: https://centivo.com/
   description: Restoring healthcare affordability for the average American worker.
@@ -518,9 +553,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: centivo
+  slug: centivo
+  matched_by: domain
 - name: Chai Discovery
   url: https://www.chaidiscovery.com/
   description: Engineering molecules with artificial intelligence
@@ -528,9 +564,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chai-discovery
+  slug: chai-discovery
+  matched_by: domain
 - name: Charta Health
   url: https://www.chartahealth.com/
   description: AI-powered platform that performs pre-bill chart reviews to detect missed medical codes,
@@ -540,18 +577,20 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: charta-health
+  slug: charta-health
+  matched_by: domain
 - name: Chrome River (Emburse)
   url: http://chromeriver.com/
   description: Equipping businesses with simplified expense and invoice automation solutions.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chrome-river-emburse
+  slug: chrome-river-emburse
+  matched_by: domain
 - name: Clari
   url: https://bcv-prod.wild.plus/insight/clari
   description: Connecting revenue-critical employees, processes and systems.
@@ -591,9 +630,10 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudistics-fungible
+  slug: cloudistics-fungible
+  matched_by: name-slug
 - name: Cofactr
   url: https://www.cofactr.com/
   description: Automating the electronics supply chain for hardware teams.
@@ -601,9 +641,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cofactr
+  in_network: true
+  is_api_provider: true
+  slug: cofactr
+  matched_by: domain
 - name: Cogent
   url: https://www.cogent.com/
   description: Building autonomous agents that close the execution gap in cybersecurity
@@ -611,9 +652,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cogent
+  slug: cogent
+  matched_by: domain
 - name: Cognition
   url: https://cognition.ai/
   description: Developer of AI-powered coding assistant, Devin
@@ -630,9 +672,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: color-labs-inc-apple
+  slug: color-labs-inc-apple
+  matched_by: name-slug
 - name: Column Tax
   url: https://www.columntax.com/
   description: Enabling companies to offer personalized, secure income tax product experiences.
@@ -640,9 +683,10 @@ companies:
   stage: seed
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: column-tax
+  slug: column-tax
+  matched_by: domain
 - name: Command E (Dropbox)
   url: https://blog.dropbox.com/topics/company/welcome-command-e-to-dropbox-
   description: Search across all your cloud work accounts.
@@ -672,17 +716,19 @@ companies:
   stage: seed
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corvus-travelers
+  slug: corvus-insurance
+  matched_by: domain
 - name: CQuotient
   description: Identifying the key levers that shape each customer’s behavior.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cquotient
+  slug: cquotient
+  matched_by: name-slug
 - name: Crosby
   url: https://crosby.ai/
   description: A hybrid AI law firm that uses AI agents and human lawyers to review contracts like MSAs
@@ -691,9 +737,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosby
+  slug: crosby
+  matched_by: domain
 - name: Crusoe Energy
   url: https://crusoe.ai/
   description: Provides sustainable AI cloud computing by using wasted energy to power GPU-optimized data
@@ -725,9 +772,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daylight
+  slug: daylight
+  matched_by: domain
 - name: Decagon
   url: https://decagon.ai/
   description: Automating customer support with AI agents that resolve issues accurately and transparently.
@@ -747,9 +795,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: defi-solutions
+  slug: defi-solutions
+  matched_by: domain
 - name: Digital Currency Group
   url: https://dcg.co/
   description: Building bitcoin and blockchain companies to accelerate the development of a better financial
@@ -758,9 +807,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digital-currency-group
+  slug: dcg
+  matched_by: domain
 - name: Disclo
   url: https://www.disclo.com/
   description: Powering end-to-end accommodations management and AI-assisted medical certifications for
@@ -769,9 +819,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: disclo
+  slug: disclo
+  matched_by: domain
 - name: Docker
   url: https://www.docker.com/
   description: Bringing developers' ideas to life and conquering the complexity of app development using
@@ -803,9 +854,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dream
+  slug: dream
+  matched_by: domain
 - name: Dynamics
   url: https://www.dynamicsinc.com/main
   description: Designing intelligent battery-powered payment devices and advanced payment platforms.
@@ -813,9 +865,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dynamics
+  slug: dynamics
+  matched_by: domain
 - name: EarnUp
   url: https://www.earnup.com/
   description: Enriching the relationship among borrowers, lenders and servicers to mitigate risk, reduce
@@ -824,9 +877,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: earnup
+  slug: earnup
+  matched_by: domain
 - name: Echelon AI
   url: https://www.echelonai.com/
   description: Automating enterprise IT services and implementation with AI agents
@@ -834,9 +888,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: echelon-ai
+  slug: echelon-ai
+  matched_by: domain
 - name: Edgar Online (OTC Markets Group)
   url: https://edgar-online.com/
   description: Uncovering intelligence from financial disclosures and offering distribution of company
@@ -845,18 +900,20 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edgar-online-otc-markets-group
+  slug: edgar-online-otc-markets-group
+  matched_by: domain
 - name: Education Holdings 1 (The Princeton Review)
   description: Offering test preparation services, tutoring and admissions resources, online courses and
     books published by Penguin Random House.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: education-holdings-1-the-princeton-review
+  slug: education-holdings-1-the-princeton-review
+  matched_by: name-slug
 - name: Emburse
   url: https://www.emburse.com/
   description: Empowering business travelers, finance professionals and CFOs to eliminate manual, time-consuming
@@ -886,17 +943,19 @@ companies:
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evertrue
+  slug: evertrue
+  matched_by: domain
 - name: Evident.io (Palo Alto Networks)
   description: Providing security and compliance automation for the public cloud.
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evidentio-palo-alto-networks
+  slug: evidentio-palo-alto-networks
+  matched_by: name-slug
 - name: Felt
   url: https://felt.com/
   description: Making it easy for anyone to think in maps.
@@ -916,9 +975,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fermat
+  slug: fermat
+  matched_by: domain
 - name: FIDEL API
   url: https://fidelapi.com/
   description: Transforming how merchants and users interact by triggering programmable experiences when
@@ -927,9 +987,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fidel-api
+  slug: fidel-api
+  matched_by: domain
 - name: Finix
   url: https://finix.com/
   description: Increasing revenue and reducing costs with world-class payment experiences for software
@@ -938,9 +999,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: finix
+  in_network: true
+  is_api_provider: true
+  slug: finix
+  matched_by: domain
 - name: Finley (Concord)
   url: https://www.finleycms.com/
   description: Simplifying the debt capital raise and management process.
@@ -948,18 +1010,20 @@ companies:
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finley-concord
+  slug: finley-concord
+  matched_by: domain
 - name: Flow Commerce (Global E)
   url: https://www.flow.io/
   description: Simplifying the complexity of scaling internationally.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flow-commerce-global-e
+  slug: flow-commerce-global-e
+  matched_by: domain
 - name: Flux
   url: https://www.flux.ai/p
   description: Helping hardware teams build better products through collaboration, live simulation, and
@@ -980,17 +1044,19 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flywire
+  slug: flywire
+  matched_by: domain
 - name: FogHorn Systems (Johnson Controls)
   description: Developing edge intelligence software for industrial and commercial IoT application solutions.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: foghorn-systems-johnson-controls
+  slug: foghorn-systems-johnson-controls
+  matched_by: name-slug
 - name: Forus (fka Tandem Health)
   url: https://forus.com/
   description: Helping patients get their prescriptions quickly and affordably.
@@ -998,9 +1064,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forus-fka-tandem-health
+  slug: forus
+  matched_by: domain
 - name: Fossa
   url: https://fossa.com/
   description: Modernizing open-source management and security.
@@ -1008,9 +1075,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fossa
+  slug: fossa
+  matched_by: domain
 - name: FourKites
   url: https://www.fourkites.com/
   description: Making the supply chain intelligent, with real-time visibility and execution.
@@ -1028,9 +1096,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: futuredontics
+  slug: futuredontics
+  matched_by: domain
 - name: Gainsight (Vista)
   url: https://www.gainsight.com/
   description: Powering customer-led, product-led and community-led growth strategies.
@@ -1049,9 +1118,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gather-ai
+  slug: gather-ai
+  matched_by: domain
 - name: GoCardless
   url: https://gocardless.com/
   description: Ushering a new era in payments by eliminating the chasing, stress and fees of one-off and
@@ -1072,9 +1142,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grain
+  slug: grain
+  matched_by: name-slug
 - name: GraniteShares
   url: https://graniteshares.com/institutional/us/en-us/
   description: Giving investors innovative, cutting-edge investment solutions as an entrepreneurial ETF
@@ -1083,9 +1154,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graniteshares
+  slug: graniteshares
+  matched_by: domain
 - name: Halcyon
   url: https://www.halcyon.ai/
   description: Stopping ransomware attacks with an automated defensive platform.
@@ -1093,9 +1165,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halcyon
+  slug: halcyon
+  matched_by: domain
 - name: Halo Health (Symplr)
   url: https://www.symplr.com/halo
   description: Founded by clinicians, for clinicians, Halo Health is the healthcare technology company
@@ -1103,9 +1176,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halo-health-symplr
+  slug: halo-health-symplr
+  matched_by: domain
 - name: Hazel Health
   url: https://www.hazel.co/
   description: Ensuring every child is seen, heard and cared for by partnering with schools and families
@@ -1114,9 +1188,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hazel-health
+  slug: hazel-health
+  matched_by: domain
 - name: Hera
   url: https://hellohera.com/
   description: Managing senior care beyond the doctor's office
@@ -1124,9 +1199,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hera
+  slug: hera
+  matched_by: domain
 - name: Hightouch
   url: https://hightouch.com/
   description: Enabling companies to activate their data warehouse to power personalized marketing and
@@ -1147,9 +1223,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hireology
+  slug: hireology
+  matched_by: domain
 - name: Homebase
   url: https://joinhomebase.com/
   description: 'Improving how businesses manages teams: time clocks, scheduling, payroll and HR all in
@@ -1168,17 +1245,19 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hooklogic-criteo
+  in_network: true
+  is_api_provider: true
+  slug: hooklogic-criteo
+  matched_by: name-slug
 - name: Humedica (UnitedHealth Group)
   description: Providing private cloud-based business solutions to the healthcare industry.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humedica-unitedhealth-group
+  slug: humedica-unitedhealth-group
+  matched_by: name-slug
 - name: HYCU
   url: https://www.hycu.com/
   description: Pioneering enterprise Data Protection as a Service to seamlessly manage, protect and recover
@@ -1187,9 +1266,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hycu
+  slug: hycu
+  matched_by: domain
 - name: Hyde
   url: https://hyde.ai/
   description: Providing the model training and inference stack for enterprises building proprietary AI
@@ -1198,9 +1278,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyde
+  slug: hyde
+  matched_by: domain
 - name: IEX
   url: https://exchange.iex.io/
   description: Moving finance forward as a stock exchange designed to deliver high-performance results
@@ -1209,36 +1290,40 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iex
+  slug: iex
+  matched_by: domain
 - name: Ike Robotics (Nuro)
   description: Making autonomy accessible to all
   sector: ai-apps
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ike-robotics-nuro
+  slug: ike-robotics-nuro
+  matched_by: name-slug
 - name: InAuth (American Express)
   description: Delivering the most advanced device identification, analysis and risk assessment capabilities
     possible to limit risk, remove friction and reduce fraud within digital channels.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inauth-american-express
+  slug: inauth-american-express
+  matched_by: name-slug
 - name: Index
   description: Helping AI-native teams ship better products by unifying feedback, design, and engineering.
   sector: ai-apps
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: index
+  slug: index
+  matched_by: name-slug
 - name: InfoScout (acquired by Numerator in 2017)
   url: https://www.numerator.com/
   description: Bringing together omnichannel marketing, merchandising and sales data to make pursuing
@@ -1247,9 +1332,10 @@ companies:
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infoscout-acquired-by-numerator-in-2017
+  slug: infoscout-acquired-by-numerator-in-2017
+  matched_by: domain
 - name: Iodine Software (Waystar)
   url: https://iodinesoftware.com/
   description: Powering Cognitive EmulationTM to solve healthcare mid-cycle revenue problems.
@@ -1257,17 +1343,19 @@ companies:
   stage: growth
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iodine-software-waystar
+  slug: iodine-software-waystar
+  matched_by: domain
 - name: Jet (Walmart)
   description: Revolutionizing ecommerce for the masses.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jet-walmart
+  slug: jet-walmart
+  matched_by: name-slug
 - name: JupiterOne
   url: https://www.jupiterone.com/
   description: Strengthening the foundation of security programs as the first software cloud-native security
@@ -1276,9 +1364,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jupiterone
+  slug: jupiterone
+  matched_by: domain
 - name: Justworks
   url: https://www.justworks.com/
   description: Building a one-stop shop for HR tools, payroll and compliance to remove the busyness from
@@ -1298,9 +1387,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kalderos
+  slug: kalderos
+  matched_by: domain
 - name: Kiva Systems (Amazon Robotics since 2012)
   url: https://www.amazon.jobs/en/teams/amazon-robotics
   description: Making small, automated robots that efficiently and safely move items around a warehouse.
@@ -1309,9 +1399,10 @@ companies:
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kiva-systems-amazon-robotics-since-2012
+  slug: kiva-systems-amazon-robotics-since-2012
+  matched_by: domain
 - name: Klutch
   url: https://klutch.ai/
   description: Bringing intelligent AI agents to construction teams
@@ -1319,9 +1410,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klutch
+  slug: klutch
+  matched_by: name-slug
 - name: Krea
   url: https://www.krea.ai/
   description: AI-powered platform for creatives for image, video and 3D content generation
@@ -1340,9 +1432,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leapyear-technologies
+  slug: leapyear-technologies
+  matched_by: domain
 - name: Legacy
   url: https://www.givelegacy.com/
   description: Protecting fertility using at-home sperm testing and freezing services.
@@ -1350,9 +1443,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legacy
+  slug: legacy
+  matched_by: domain
 - name: Legora
   url: https://legora.com/
   description: Building the world's first truly collaborative AI for lawyers.
@@ -1370,9 +1464,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liazon
+  slug: liazon
+  matched_by: name-slug
 - name: Lightbend
   url: https://www.lightbend.com/
   description: Enabling developers to easily build the most demanding, data-centric, globally distributed
@@ -1381,9 +1476,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightbend
+  slug: lightbend
+  matched_by: name-slug
 - name: Lightning.AI
   url: https://lightning.ai/
   description: Making it possible to build ML in days, not months.
@@ -1391,9 +1487,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightningai
+  slug: lightning-ai
+  matched_by: domain
 - name: LightSource
   url: https://lightsource.ai/
   description: Modernizing sourcing and procurement with and AI-native AI-native, enterprise platform
@@ -1401,9 +1498,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightsource
+  slug: lightsource
+  matched_by: domain
 - name: Lime
   url: https://www.li.me/
   description: Building a future where transportation is shared, affordable and carbon-free.
@@ -1421,9 +1519,10 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linkable-networks-collinson-group
+  slug: linkable-networks-collinson-group
+  matched_by: name-slug
 - name: LinkedIn
   url: http://linkedin.com
   description: Connecting working professionals to their networks.
@@ -1442,9 +1541,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lithos-carbon
+  slug: lithos-carbon
+  matched_by: domain
 - name: Loyal
   url: https://loyalfordogs.com/
   description: Developing the first drugs designed to extend dogs' lifespans.
@@ -1452,9 +1552,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loyal
+  slug: loyalfordogs
+  matched_by: domain
 - name: Magical
   url: https://bcv-prod.wild.plus/insight/magical
   description: Automating soul-crushing tasks by moving data between tabs.
@@ -1462,9 +1563,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magical
+  slug: magical
+  matched_by: name-slug
 - name: MagicSchool
   url: https://www.magicschool.ai/
   description: Creating personalized learning experiences through AI-powered educational tools and platforms.
@@ -1472,9 +1574,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magicschool
+  slug: magicschool
+  matched_by: domain
 - name: MaintainX
   url: https://www.getmaintainx.com/
   description: Simplifying maintenance, safety and operations for frontline teams while increasing equipment
@@ -1483,26 +1586,29 @@ companies:
   stage: growth
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: maintainx
+  in_network: true
+  is_api_provider: true
+  slug: maintainx
+  matched_by: domain
 - name: Manicube (Elizabeth Arden Red Door)
   description: Making the lives of working women easier with on-the-go beauty services.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manicube-elizabeth-arden-red-door
+  slug: manicube-elizabeth-arden-red-door
+  matched_by: name-slug
 - name: Marriage Pact
   url: https://marriagepact.com/
   description: Using an algorithm to find practical relationship backup plans.
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marriage-pact
+  slug: marriage-pact
+  matched_by: domain
 - name: Material Bank
   url: https://www.materialbank.com/
   description: Creating the world's first marketplace for architectural, design and construction materials.
@@ -1510,36 +1616,40 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: material-bank
+  slug: materialbank
+  matched_by: domain
 - name: MedeAnalytics (JLL Partners)
   url: https://medeanalytics.com/
   description: Providing analytics and innovative solutions for healthcare payers and providers.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medeanalytics-jll-partners
+  slug: medeanalytics-jll-partners
+  matched_by: domain
 - name: MedHOK (Hearst Communications)
   description: Driving better member care in a changing healthcare environment by bringing every care
     moment in a person’s health journey onto one platform.
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medhok-hearst-communications
+  slug: medhok-hearst-communications
+  matched_by: name-slug
 - name: Media Radar
   url: https://mediaradar.com/
   description: Enabling ad sales intelligence for digital and traditional publishers.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: media-radar
+  slug: media-radar
+  matched_by: domain
 - name: Meela
   url: https://www.meela.ai/
   description: A personalized AI companion for seniors to combat loneliness
@@ -1547,9 +1657,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meela
+  slug: meela
+  matched_by: domain
 - name: Mercanto
   url: https://mercanto.mx/
   description: Connecting brands and stores across Mexico by offering unique products at wholesale prices.
@@ -1557,9 +1668,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mercanto
+  slug: mercanto
+  matched_by: domain
 - name: Mind Robotics
   url: https://www.mindrobotics.com/
   description: Building the world's leading industrial robotics platform
@@ -1570,7 +1682,7 @@ companies:
   slug: mind-robotics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mintlify
   url: https://mintlify.com/
   description: Setting the modern standard for developer documentation.
@@ -1589,9 +1701,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mirakl
+  in_network: true
+  is_api_provider: true
+  slug: mirakl
+  matched_by: domain
 - name: Modal
   url: https://modal.com/
   description: Powering AI applications with cloud infrastructure built for inference, agents, and training.
@@ -1610,9 +1723,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: momento
+  slug: momento
+  matched_by: domain
 - name: Moov Financial
   url: https://moov.io/
   description: Attacking typical payment processing as the all-in-one modern acquirer processor, issuing
@@ -1633,9 +1747,10 @@ companies:
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: moveworks-servicenow
+  in_network: true
+  is_api_provider: true
+  slug: moveworks
+  matched_by: domain
 - name: mParticle
   url: https://www.mparticle.com/
   description: Supercharging marketing stacks with better customer data.
@@ -1652,18 +1767,20 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myedu
+  slug: myedu
+  matched_by: name-slug
 - name: National Cardiovascular Partners (Fresenius Medical Care)
   description: Striving to be the highest-quality and largest outpatient cardiology and vascular services
     provider in the U.S.
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: national-cardiovascular-partners-fresenius-medical-care
+  slug: national-cardiovascular-partners-fresenius-medical-care
+  matched_by: name-slug
 - name: Navro
   url: https://navro.com/
   description: Building the one-stop payment shop for international marketplaces.
@@ -1671,9 +1788,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: navro
+  slug: navro
+  matched_by: domain
 - name: Ndata
   url: https://www.ndata.cz/
   description: Creating powerful insights and differentiated results for funds, firms or clients with
@@ -1681,9 +1799,10 @@ companies:
   sector: ai-infrastructure
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ndata
+  slug: ndata
+  matched_by: domain
 - name: Nebulock
   url: https://nebulock.io/
   description: Providing the first autonomous threat hunting platform.
@@ -1691,9 +1810,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nebulock
+  in_network: true
+  is_api_provider: true
+  slug: nebulock
+  matched_by: domain
 - name: Netdata
   url: https://www.netdata.cloud/
   description: Powering the eponymous open-source system for monitoring applications, servers, containers
@@ -1725,9 +1845,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: norm-ai
+  slug: norm-ai
+  matched_by: domain
 - name: Northflank
   url: https://northflank.com/
   description: Deploying and scaling any workload, on any cloud, with a unified developer platform.
@@ -1746,44 +1867,49 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novus-sei-investments
+  slug: novus
+  matched_by: domain
 - name: Nubisio (Tracxn)
   description: Providing cloud-enabled bottomless storage solutions.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nubisio-tracxn
+  slug: nubisio-tracxn
+  matched_by: name-slug
 - name: ObserveIT (Proofpoint)
   url: https://www.proofpoint.com/us/observeit-is-now-proofpoint
   description: Reducing the risk, severity and number of insider threat incidents.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observeit-proofpoint
+  slug: illusive-networks
+  matched_by: domain
 - name: Obvio
   url: https://www.obvio.ai/
   description: Improving traffic safety with AI-powered traffic cameras
   sector: physical-ai
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: obvio
+  slug: obvio
+  matched_by: domain
 - name: Onera (acquired by Lyniate in 2021)
   description: Creating a single platform to manage all inventory data.
   sector: ai-apps
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onera-acquired-by-lyniate-in-2021
+  slug: onera-acquired-by-lyniate-in-2021
+  matched_by: name-slug
 - name: OpenFin
   url: https://www.openfin.co/
   description: Powering financial desktops with the same app distribution, security and interoperability
@@ -1792,9 +1918,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openfin
+  slug: openfin
+  matched_by: domain
 - name: Optimizely (Episerver)
   url: https://www.optimizely.com/
   description: Equipping teams with the tools and insights to create compelling digital content and optimize
@@ -1813,9 +1940,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oratomic
+  slug: oratomic
+  matched_by: domain
 - name: Orum
   url: https://bcv-prod.wild.plus/insight/orum
   description: Creating smart, real-time and fully-automated money movement.
@@ -1823,9 +1951,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orum
+  in_network: true
+  is_api_provider: true
+  slug: orum
+  matched_by: name-slug
 - name: Oyster.com (TripAdvisor)
   url: https://www.oyster.com/
   description: Aggregating the world's most professional and comprehensive hotel reviews and thousands
@@ -1833,9 +1962,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oystercom-tripadvisor
+  slug: oystercom-tripadvisor
+  matched_by: domain
 - name: Palette
   url: https://palettehq.com/
   description: Creating and maintaining efficient compensation plans built for growth.
@@ -1843,9 +1973,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palette
+  slug: palette
+  matched_by: domain
 - name: Pallet
   url: https://www.pallet.com/
   description: Streamlining logistics operations through end-to-end visibility, control and optimization.
@@ -1853,9 +1984,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pallet
+  slug: pallet
+  matched_by: domain
 - name: Parafi
   url: https://parafi.com/
   description: Leading crypto-native investment in token, venture and quantitative strategies.
@@ -1863,9 +1995,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: parafi
+  in_network: true
+  is_api_provider: true
+  slug: parafi
+  matched_by: domain
 - name: Parative
   url: https://www.parative.com/
   description: Unifying all customer data to identify hidden risk and revenue opportunity with a Scoring
@@ -1874,9 +2007,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parative
+  slug: parative
+  matched_by: domain
 - name: Passport (Arrive)
   url: https://www.passportinc.com/
   description: Powering all your parking and mobility needs on one platform.
@@ -1895,9 +2029,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periodic-labs
+  slug: periodic
+  matched_by: domain
 - name: Persado
   url: https://www.persado.com/
   description: Creating AI platform offerings for C-Suite executives to motivate their team to engage
@@ -1906,9 +2041,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: persado
+  slug: persado
+  matched_by: domain
 - name: Playbook
   url: https://www.playbook.com/
   description: Modernizing creative file management.
@@ -1916,9 +2052,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playbook
+  slug: playbook
+  matched_by: name-slug
 - name: Pleo
   url: https://www.pleo.io/en
   description: Improving company spending across expense reports, out-of-pocket expenses and company cards.
@@ -1937,9 +2074,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polars
+  slug: polars
+  matched_by: domain
 - name: poolside
   url: https://www.poolside.ai/
   description: Using AI to help software developers work more efficiently.
@@ -1947,9 +2085,9 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: poolside-ai
+  slug: poolside
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Predictive Oncology  (Precision Therapeutics)
   url: https://predictive-oncology.com/
@@ -1957,16 +2095,17 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: predictive-oncology-precision-therapeutics
+  slug: predictive-oncology-precision-therapeutics
+  matched_by: domain
 - name: Prisma SD-WAN (Palo Alto Networks)
   url: https://www.paloaltonetworks.com/sase/sd-wan
   description: Securing the hybrid workforce with one SASE solution.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  slug: microsoft-azure
+  slug: demisto
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1978,9 +2117,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pronto
+  slug: pronto
+  matched_by: domain
 - name: Prophet Security
   url: https://www.prophet.security
   description: Empowering cybersecurity analysts with generative AI, cutting mean time to threat response
@@ -1989,9 +2129,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prophet-security
+  slug: prophet-security
+  matched_by: name-slug
 - name: Pylon
   url: https://usepylon.com/
   description: Providing AI-native customer support for B2B companies.
@@ -1999,9 +2140,9 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: pylon
+  slug: every
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Quanterix
   url: https://www.quanterix.com/
@@ -2010,9 +2151,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quanterix
+  slug: quanterix
+  matched_by: domain
 - name: Qwiet
   url: https://www.shiftleft.io/
   description: Analyzing software applications from an attacker's viewpoint to bring DevOps and Security
@@ -2021,18 +2163,20 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qwiet
+  in_network: true
+  is_api_provider: true
+  slug: qwiet-ai
+  matched_by: domain
 - name: Radionomy (Azerion)
   url: http://www.radionomy.com/index.html
   description: Providing tools for operating online radio stations.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: radionomy-azerion
+  slug: radionomy-azerion
+  matched_by: domain
 - name: Rapid7
   url: https://www.rapid7.com/
   description: Uniting security, IT and DevOps team through shared visibility, analytics and automation.
@@ -2062,9 +2206,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: red-balloon-security
+  slug: red-balloon-security
+  matched_by: domain
 - name: Redis
   url: https://baincapitalventures.com/insight/redis/
   description: Empowering developers through an open-source, in-memory data store.
@@ -2072,18 +2217,19 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: redis
+  slug: bain-capital-ventures
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Regulatory DataCorp
   description: Providing comprehensive risk and compliance protection services.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regulatory-datacorp
+  slug: regulatory-datacorp
+  matched_by: name-slug
 - name: Relay Financial
   url: https://relayfi.com/
   description: Improving online banking and money management to put small businesses in complete control
@@ -2094,7 +2240,7 @@ companies:
   source: https://baincapitalventures.com/portfolio
   slug: relay-financial
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Rent the Runway
   url: http://renttherunway.com
@@ -2103,9 +2249,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rent-the-runway
+  slug: rent-the-runway
+  matched_by: domain
 - name: RentoMojo
   url: https://www.rentomojo.com/
   description: Helping people set up their homes for easy and affordable rentals.
@@ -2113,9 +2260,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rentomojo
+  slug: rentomojo
+  matched_by: domain
 - name: Reonomy (Altus Group)
   url: https://www.reonomy.com/
   description: Revolutionizing the world of commercial real estate with unrivaled access to in-depth property
@@ -2146,9 +2294,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reserv
+  slug: reserv
+  matched_by: domain
 - name: RevenueCat
   url: https://www.revenuecat.com/
   description: Enabling the next phase of mobile app monetization
@@ -2165,9 +2314,10 @@ companies:
   sector: healthcare
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ricerca-biosciences
+  slug: ricerca-biosciences
+  matched_by: name-slug
 - name: Roofstock
   url: https://www.roofstock.com/
   description: Making real estate investing radically accessible.
@@ -2175,7 +2325,7 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: stessa
+  slug: roofstock
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -2198,26 +2348,29 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalearc-ignitetech
+  slug: scalearc-ignitetech
+  matched_by: name-slug
 - name: ScaleBase
   description: Building a distributed database management system architected for the cloud.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalebase
+  slug: scalebase
+  matched_by: name-slug
 - name: ScoreBig (TicketNetwork)
   url: https://www.scorebig.com/
   description: Allowing consumers to purchase last-minute tickets to sold-out events.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scorebig-ticketnetwork
+  slug: scorebig-ticketnetwork
+  matched_by: domain
 - name: Semantic Machines (Microsoft)
   url: https://blogs.microsoft.com/blog/2018/05/20/microsoft-acquires-semantic-machines-advancing-the-state-of-conversational-ai/
   description: Powering machine learning to enable users to discover, access and interact with information
@@ -2245,18 +2398,20 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sevone-turbonomic
+  slug: sevone-turbonomic
+  matched_by: name-slug
 - name: ShieldX (Fortinet)
   description: Integrating cloud-delivered SD-WAN connectivity with cloud-delivered security to enable
     the industry’s most flexible secure private access.
   sector: security
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shieldx-fortinet
+  slug: shieldx-fortinet
+  matched_by: name-slug
 - name: ShipBob
   url: https://www.shipbob.com/
   description: Empowering businesses to offer two-day shipping and manage inventory, orders and shipments.
@@ -2276,9 +2431,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shopmy
+  in_network: true
+  is_api_provider: true
+  slug: shopmy
+  matched_by: domain
 - name: SigFig
   url: https://sigfig.com/home/
   description: Creating software for financial services organizations, ranging from digital wealth management
@@ -2287,9 +2443,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sigfig
+  slug: sigfig
+  matched_by: domain
 - name: Signifyd
   url: https://www.signifyd.com/
   description: Recognizing the true identity and intent behind every payment using transactional and behavioral
@@ -2310,9 +2467,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: silna
+  in_network: true
+  is_api_provider: true
+  slug: silna
+  matched_by: domain
 - name: Simile
   url: https://simile.ai/
   description: AI-driven simulations that show how and why customers, employees, or populations respond
@@ -2321,9 +2479,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simile
+  slug: simile
+  matched_by: domain
 - name: Skai (Kenshoo)
   description: Empowering brands and agencies worldwide to manage enterprise-level, omnichannel digital
     campaigns.
@@ -2331,9 +2490,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skai-kenshoo
+  slug: skai-kenshoo
+  matched_by: name-slug
 - name: Skip
   url: https://skip.money/
   description: Providing an integrated suite of infrastructure products for sovereign blockchains.
@@ -2341,9 +2501,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skip
+  slug: skip
+  matched_by: name-slug
 - name: Smallstep
   url: https://smallstep.com/
   description: Turning security best practices into a toolkit that empowers any developer or operator
@@ -2352,9 +2513,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: smallstep
+  in_network: true
+  is_api_provider: true
+  slug: smallstep
+  matched_by: domain
 - name: SmartRent
   url: https://smartrent.com/
   description: Providing technology solutions that deliver the ultimate smart building experience for
@@ -2363,9 +2525,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartrent
+  slug: smartrent
+  matched_by: domain
 - name: Socure
   url: https://www.socure.com/
   description: Delivering the most accurate fraud detection and identity verification in real time using
@@ -2385,18 +2548,20 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soona
+  slug: soona
+  matched_by: name-slug
 - name: SquareTrade (Allstate)
   url: https://www.squaretrade.com/
   description: Revolutionizing the product protection category for consumer electronics and appliances.
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: squaretrade-allstate
+  slug: squaretrade-allstate
+  matched_by: domain
 - name: Stackdriver (Google)
   url: https://cloud.google.com/products/operations
   description: Providing powerfully simple monitoring-as-a-service that helps DevOps teams spend more
@@ -2404,9 +2569,10 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stackdriver-google
+  slug: stackdriver-google
+  matched_by: name-slug
 - name: Stacklok
   url: https://stacklok.com/
   description: Securing enterprise AI workflows through open-source MCP infrastructure
@@ -2414,9 +2580,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stacklok
+  in_network: true
+  is_api_provider: true
+  slug: stacklok
+  matched_by: domain
 - name: StarTree (Cortexdata)
   url: https://www.startree.ai/
   description: Driving the user-facing analytics revolution with a seamless and fully managed real-time
@@ -2425,9 +2592,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: startree-cortexdata
+  in_network: true
+  is_api_provider: true
+  slug: startree
+  matched_by: domain
 - name: Straiker
   url: https://www.straiker.ai/
   description: Securing AI applications and AI usage
@@ -2435,9 +2603,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: straiker
+  slug: straiker
+  matched_by: domain
 - name: Structify
   url: https://www.structify.ai/
   description: Delivering human-quality data on demand with Structify's API
@@ -2445,9 +2614,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: structify
+  in_network: true
+  is_api_provider: true
+  slug: structify
+  matched_by: domain
 - name: Sunday Robotics
   url: https://www.sunday.ai/
   description: Shaping the future of helpful robotics.
@@ -2455,9 +2625,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunday-robotics
+  slug: sunday-robotics
+  matched_by: domain
 - name: SurveyMonkey
   url: https://www.surveymonkey.com/
   description: Creating survey software to help people turn their curiosity into action.
@@ -2476,18 +2647,20 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swish
+  slug: swish
+  matched_by: domain
 - name: Symphony Commerce
   description: Powering multi-channel storefronts, orders, inventory and fulfillment orchestration for
     brands.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: symphony-commerce
+  slug: symphony-commerce
+  matched_by: name-slug
 - name: Sysdig
   url: https://sysdig.com/
   description: Delivering real-time cloud security with agentic AI and deep runtime intelligence
@@ -2504,9 +2677,10 @@ companies:
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tapcommerce-twitter
+  slug: tapcommerce-twitter
+  matched_by: name-slug
 - name: Tecton (Databricks)
   url: https://www.tecton.ai/
   description: Making world-class machine learning accessible to every company.
@@ -2514,18 +2688,20 @@ companies:
   stage: growth
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tecton-databricks
+  slug: tecton
+  matched_by: domain
 - name: TellApart (acquired by Twitter in 2015)
   description: Unlocking customer data to improve acquisition efforts for large online retailers.
   sector: ai-apps
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tellapart-acquired-by-twitter-in-2015
+  slug: tellapart-acquired-by-twitter-in-2015
+  matched_by: name-slug
 - name: TerraFirma
   url: https://terrafirma.inc/
   description: Scaling semi-autonomous heavy machinery robotics
@@ -2533,9 +2709,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terrafirma
+  slug: terrafirma
+  matched_by: domain
 - name: The Sentience Company
   url: https://www.sentience.company/
   description: Building the personal AI that thinks, remembers, and acts like you
@@ -2543,17 +2720,19 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-sentience-company
+  slug: the-sentience-company
+  matched_by: domain
 - name: TheFind (Meta)
   description: Bettering online discovery for lifestyle products.
   sector: commerce
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thefind-meta
+  slug: thefind-meta
+  matched_by: name-slug
 - name: Thoropass
   url: https://thoropass.com/
   description: Making compliance a way to win with fast certification and scalable security practices
@@ -2562,18 +2741,20 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thoropass
+  slug: thoropass
+  matched_by: domain
 - name: TidalScale
   url: https://www.tidalscale.com/
   description: Transforming IT infrastructure with software-defined servers.
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tidalscale
+  slug: tidalscale
+  matched_by: domain
 - name: TokBox
   url: https://tokbox.com/developer/
   description: Making it easy to embed high-quality interactive video, voice, messaging and screen sharing
@@ -2592,9 +2773,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tomo
+  slug: tomo
+  matched_by: domain
 - name: Total Attorneys (Internet Brands)
   url: https://www.totalattorneys.com/
   description: Bringing legal professionals together to share ideas, connect and learn about technology
@@ -2602,26 +2784,29 @@ companies:
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: total-attorneys-internet-brands
+  slug: total-attorneys-internet-brands
+  matched_by: domain
 - name: TravelClick (Amadeus)
   description: Innovating cloud-based and data-driven solutions for hotels to maximize revenue.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: travelclick-amadeus
+  slug: travelclick-amadeus
+  matched_by: name-slug
 - name: Trooly (Airbnb)
   description: Delivering Instant Trust™ services that verify, screen and predict trustworthy relationships
     and interactions.
   sector: ai-apps
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trooly-airbnb
+  slug: trooly-airbnb
+  matched_by: name-slug
 - name: TruckSmarter
   url: https://www.trucksmarter.com/
   description: Helping truck drivers and owner-operators manage their businesses through a full-service
@@ -2630,9 +2815,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: trucksmarter
+  in_network: true
+  is_api_provider: true
+  slug: trucksmarter
+  matched_by: domain
 - name: TruVideo
   url: https://truvideo.com/
   description: Offering a proprietary video and texting platform that helps businesses communicate with
@@ -2641,9 +2827,10 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: truvideo
+  in_network: true
+  is_api_provider: true
+  slug: truvideo
+  matched_by: domain
 - name: Turbonomic (IBM)
   url: https://www.ibm.com/cloud/turbonomic
   description: Making infrastructure spend, data center refresh costs and engineering time more efficient
@@ -2661,9 +2848,10 @@ companies:
   sector: fintech
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: txvia-google
+  slug: txvia-google
+  matched_by: name-slug
 - name: Unstructured
   url: https://unstructured.io/
   description: Transforming natural language data from raw to machine learning-ready.
@@ -2683,9 +2871,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: venminder-digital-comply
+  in_network: true
+  is_api_provider: true
+  slug: venminder-digital-comply
+  matched_by: domain
 - name: Vention
   url: https://vention.io/
   description: Helping manufacturing companies automate their production floors in just a few days.
@@ -2693,9 +2882,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vention
+  slug: vention
+  matched_by: domain
 - name: VetSource
   url: https://vetsource.com/
   description: Giving pet healthcare professionals the business solutions they need to simplify processes
@@ -2704,9 +2894,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vetsource
+  slug: vetsource
+  matched_by: domain
 - name: Veza
   url: https://veza.com/
   description: Helping organizations secure access across the enterprise with identity security
@@ -2714,9 +2905,10 @@ companies:
   stage: seed
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veza
+  slug: veza
+  matched_by: domain
 - name: VISO Trust (Protecht)
   url: https://visotrust.com/
   description: Leveraging a social due diligence network and curated AI to take control of your third-party
@@ -2725,9 +2917,10 @@ companies:
   stage: early
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: viso-trust-protecht
+  in_network: true
+  is_api_provider: true
+  slug: viso-trust-protecht
+  matched_by: domain
 - name: VoiceOps
   url: https://voiceops.com/
   description: Turning data into measurable outcomes for call center coaching.
@@ -2735,9 +2928,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voiceops
+  slug: voiceops
+  matched_by: domain
 - name: Whop
   url: http://www.whop.com
   description: Empowering creators with the tools to launch, manage and grow their digital businesses.
@@ -2756,9 +2950,10 @@ companies:
   stage: early
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder
+  slug: wonder
+  matched_by: domain
 - name: Wrike
   url: https://www.wrike.com/
   description: Implementing a single digital workplace for enterprise brands across all of their departments
@@ -2775,9 +2970,10 @@ companies:
   sector: ai-infrastructure
   status: acquired
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xplenty-xenon
+  slug: xplenty-xenon
+  matched_by: name-slug
 - name: Zelis
   url: https://www.zelis.com/
   description: Modernizing the healthcare financial experience by optimizing every step of the payments
@@ -2786,9 +2982,10 @@ companies:
   stage: growth
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zelis
+  slug: zelis
+  matched_by: domain
 - name: Zenlytic
   url: https://www.zenlytic.com/
   description: Ending data chaos with enterprise-grade no-code analytics for ecommerce and DTC businesses.
@@ -2796,6 +2993,7 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zenlytic
+  in_network: true
+  is_api_provider: true
+  slug: zenlytic
+  matched_by: domain

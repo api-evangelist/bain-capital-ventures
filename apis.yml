@@ -15,6 +15,17 @@ description: >-
   platform (The Hive) supporting talent, go-to-market, and customer development.
 x-type: venture-capital
 x-category: Venture Capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://baincapitalventures.com/apple-touch-icon.png
 tags:
   - Venture Capital

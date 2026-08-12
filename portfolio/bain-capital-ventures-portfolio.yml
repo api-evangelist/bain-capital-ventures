@@ -181,7 +181,7 @@ companies:
   stage: seed
   status: active
   source: https://baincapitalventures.com/portfolio
-  slug: alloy
+  slug: alloy-com
   in_network: true
   is_api_provider: true
   matched_by: name-slug

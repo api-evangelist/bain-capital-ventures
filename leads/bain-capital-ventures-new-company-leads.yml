@@ -1,4 +1,95 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: bain-capital-ventures
-leads: []
+leads:
+- name: Alloy
+  url: https://bcv-prod.wild.plus/insight/alloy
+  suggested_slug: alloy
+  sector: ai-apps
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Appriss Inc.
+  url: https://apprisscorp.com/
+  suggested_slug: apprisscorp-com
+  sector: fintech
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Flux
+  url: https://www.flux.ai/p
+  suggested_slug: flux
+  sector: physical-ai
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Grain
+  url: https://www.grainfinance.co/
+  suggested_slug: grainfinance-co
+  sector: fintech
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Ike Robotics (Nuro)
+  url: ''
+  suggested_slug: ike-robotics-nuro
+  sector: ai-apps
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: InfoScout (acquired by Numerator in 2017)
+  url: https://www.numerator.com/
+  suggested_slug: infoscout-acquired-by-numerator-in-2017
+  sector: commerce
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Onera (acquired by Lyniate in 2021)
+  url: ''
+  suggested_slug: onera-acquired-by-lyniate-in-2021
+  sector: ai-apps
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Playbook
+  url: https://www.playbook.com/
+  suggested_slug: playbook-com
+  sector: ai-apps
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Prophet Security
+  url: https://www.prophet.security
+  suggested_slug: prophet-security
+  sector: security
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: ScaleArc (IgniteTech)
+  url: https://www.devgraph.com/scalearc/
+  suggested_slug: scalearc-ignitetech
+  sector: ai-infrastructure
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: Stackdriver (Google)
+  url: https://cloud.google.com/products/operations
+  suggested_slug: stackdriver-google
+  sector: ai-infrastructure
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: TellApart (acquired by Twitter in 2015)
+  url: ''
+  suggested_slug: tellapart-acquired-by-twitter-in-2015
+  sector: ai-apps
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false
+- name: TokBox
+  url: https://tokbox.com/developer/
+  suggested_slug: tokbox
+  sector: commerce
+  source_vc: bain-capital-ventures
+  source: https://baincapitalventures.com/portfolio
+  stub_created: false

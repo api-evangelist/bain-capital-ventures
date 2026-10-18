@@ -118,7 +118,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: adentro
-  matched_by: name-slug
+  matched_by: domain
+  url: https://adentro.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: AdReady (CPXi)
   url: https://www.digitalremedy.com/platform/
   description: Delivering advertisers, publishers and agencies the technology they need to make the most
@@ -256,8 +258,8 @@ companies:
   source: https://baincapitalventures.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: appriss-inc
   suggested_slug: apprisscorp-com
+  x-name-collision: appriss-inc
 - name: Aqueduct
   url: https://www.tryaqueduct.com/
   description: Equipping B2B businesses with the tools to do billing, invoicing, quoting and accounting
@@ -1109,8 +1111,8 @@ companies:
   source: https://baincapitalventures.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: grain
   suggested_slug: grainfinance-co
+  x-name-collision: grain
 - name: GraniteShares
   url: https://graniteshares.com/institutional/us/en-us/
   description: Giving investors innovative, cutting-edge investment solutions as an entrepreneurial ETF
@@ -1288,6 +1290,7 @@ companies:
   is_api_provider: false
   slug: index
   matched_by: name-slug
+  x-url-candidate: https://index.io
 - name: InfoScout (acquired by Numerator in 2017)
   url: https://www.numerator.com/
   description: Bringing together omnichannel marketing, merchandising and sales data to make pursuing
@@ -1994,8 +1997,8 @@ companies:
   source: https://baincapitalventures.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: playbook
   suggested_slug: playbook-com
+  x-name-collision: playbook
 - name: Pleo
   url: https://www.pleo.io/en
   description: Improving company spending across expense reports, out-of-pocket expenses and company cards.
@@ -2071,8 +2074,8 @@ companies:
   source: https://baincapitalventures.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: prophet-security
   suggested_slug: prophet-security
+  x-name-collision: prophet-security
 - name: Pylon
   url: https://usepylon.com/
   description: Providing AI-native customer support for B2B companies.
@@ -2300,6 +2303,7 @@ companies:
   is_api_provider: false
   slug: scalebase
   matched_by: name-slug
+  x-url-candidate: https://scalebase.com
 - name: ScoreBig (TicketNetwork)
   url: https://www.scorebig.com/
   description: Allowing consumers to purchase last-minute tickets to sold-out events.
@@ -2588,6 +2592,7 @@ companies:
   is_api_provider: false
   slug: symphony-commerce
   matched_by: name-slug
+  x-url-candidate: https://www.symphonycommerce.io/
 - name: Sysdig
   url: https://sysdig.com/
   description: Delivering real-time cloud security with agentic AI and deep runtime intelligence
